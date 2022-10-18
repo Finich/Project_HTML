@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    background: #f3e5cd;
+    width: fit-content;;
+}
+
+.topWidget {
+    background: #2268bb;
+    height: 150px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
+
+.ThreeWidgets {
+    display: flex;
+    height: 175px;
+    width: 550px;
+    justify-content: space-between;
+}
+
+.block {
+    background: #16447a;
+    width: 175px;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomWidget {
+    background: #2268bb;
+    height: 250px;
+    width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+}
