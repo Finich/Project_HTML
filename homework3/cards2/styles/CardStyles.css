@@ -1,0 +1,64 @@
+.container {
+    height: 500px;
+    background: #112b3d;
+    width: 800px;
+}
+
+.navBar {
+    background: #ccd6e0;
+    height: 100px;
+    display: flex;
+}
+
+.leftNavBar {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftInsideBar {
+    background: #102b40;
+    height: 50px;
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+
+.rightNavBar {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center ;
+}
+
+.fa-bars, .fa-magnifying-glass {
+    margin-right: 30px;
+    font-size: 30px;
+    opacity: 0.3;
+}
+
+.fa-bars {
+    margin-right: 90px;
+}
+
+.mainWindow {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    height: 80%;
+}
+
+.Block {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    background: #6864df;
+    border-radius: 15px;
+    position: relative;
+    top: 90px;
+}
