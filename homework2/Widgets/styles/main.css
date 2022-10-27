@@ -1,0 +1,64 @@
+.container {
+    background: #06bbd3;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.widgetContainer {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    /*background: silver;*/
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.widget {
+    height: 100px;
+    background: white;
+    width: 45%;
+    display: flex;
+    border-radius: 5px;
+}
+
+.Left_Icon {
+    height: 100%;
+    width: 35%;
+    /*background: cornflowerblue;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    opacity: 0.4;
+}
+
+
+.widgetRightContent {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Widget_Title {
+    color: #fd934c;
+    box-sizing: border-box;
+    margin-top: 10px;
+    font-weight: bold;
+    height: 30%;
+    opacity: 0.9;
+}
+
+.WidgetDescription {
+    color: grey;
+    font-size: 13px;
+    box-sizing: border-box;
+    padding: 10px 10px 10px 0;
+    text-align: left;
+}
